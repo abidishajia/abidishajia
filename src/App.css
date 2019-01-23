@@ -1,32 +1,70 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Charm|Damion");
+:root{
+  --mainBlue: #2A2A72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainSeaGreen: #219f8f;
+  --mainYellow: #ece93b;
+  --mainPink:  #df38c3;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main {
+  height: 90vh; 
+  display: flex; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Decovar Regular24';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.title-name {
+  margin: 0;
+  font-size: 10vw;
+  /* position: relative; */
+  font-family: "Decovar Regular24";
+  font-variation-settings: 'INLN'1000, 'SWRM'580;
+  background-size: 30%;
+  background-repeat: repeat;
+  text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
+  animation: grow 5s ease infinite;
+  animation-direction: alternate;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+}
+
+@keyframes grow {
+  0% {
+    font-variation-settings: 'INLN'1000, 'SWRM'180;
+    color: #ece93b;
+    font-weight: 700;
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    font-variation-settings: 'INLN'1000, 'SWRM'280;
+    color: #bbb930;
+    font-weight: 600;
   }
+
+  100% {
+    font-variation-settings: 'INLN'1000, 'SWRM'580;
+    color: #6d6c1d;
+    font-weight: 500;
+  }
+
+}
+
+.profession-header h3 {
+  font-family: "Decovar Regular24";
+  font-size: 3vw;
+  color: #df38c3;
+  font-weight: 700;
+}
+
+.tagline{
+  /* font-family: "Decovar Regular24"; */
+  color: #df38c3;
+  font-weight: 700;
 }
