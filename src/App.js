@@ -13,7 +13,7 @@ class App extends Component {
       <div className="container">
           <NavBar/>
           <Switch>
-            <Route exact path="/" component={Header} /> 
+            <Route exact path="/abidishajia" component={Header} /> 
             <Route exact path="/about" component={About} /> 
             <Route exact path="/projects" component={Projects} /> 
           </Switch>
