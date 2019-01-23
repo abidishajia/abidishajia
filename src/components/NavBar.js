@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo.png';
+import styled from 'styled-components'
 
 class NavBar extends Component {
     render() { 
@@ -9,22 +10,31 @@ class NavBar extends Component {
             <Link to="/">
                     <img src={logo} alt="store" className="navbar-brand" width="40" height="40"/>
             </Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
             
-            <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">Open</button>
-
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-                <ul className="navbar-nav">
-                    <li className="navbar-item">
-                        <Link to="/about" className="nav-link">About Me</Link>
-                    </li>
+            <NavLinks className="collapse navbar-collapse ml-auto" id="navbarNav">
+                <ul className="navbar-nav ml-auto">
                     <li className="navbar-item">
                         <Link to="/projects" className="nav-link">Projects</Link>
                     </li>
+                    <li className="navbar-item">
+                        <Link to="/about" className="nav-link">About Me</Link>
+                    </li>
                 </ul>
-            </div>
+            </NavLinks>
         </nav>
          );
     }
 }
+
+const NavLinks = styled.div`
+    li{
+        font-family:'Kalam', cursive !important;
+        color: var(--mainSeaGreen) !important;
+    }
+
+`
  
 export default NavBar;

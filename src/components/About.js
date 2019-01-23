@@ -9,7 +9,7 @@ class About extends Component {
                 <div className="col-sm-12">
                     <h3> About </h3>
                 </div>
-                <div className="col-sm-12 col-md-4 ">
+                <div className="col-sm-12 col-md-4 imageCircle">
                     <img src={headerImage} alt="Shajia in her graduation gown" className="rounded-circle"/>
                 </div>
               
@@ -89,7 +89,12 @@ p span{
   100% {
     border-color:  rgb(34, 158, 142);
   }
+}
 
+@media (max-width: 600px) {
+    .imageCircle{
+        margin-bottom: 20px;
+    }
 }
 `
  
