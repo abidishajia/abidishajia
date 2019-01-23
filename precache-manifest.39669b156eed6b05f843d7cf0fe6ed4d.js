@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/abidishajia/static/js/runtime~main.ce175004.js"
   },
   {
-    "revision": "592dbff3049e46c660b7",
-    "url": "/abidishajia/static/js/main.592dbff3.chunk.js"
+    "revision": "e74ffe8bffb4eceabc00",
+    "url": "/abidishajia/static/js/main.e74ffe8b.chunk.js"
   },
   {
     "revision": "26fe687af70995b5d9ba",
     "url": "/abidishajia/static/js/1.26fe687a.chunk.js"
   },
   {
-    "revision": "592dbff3049e46c660b7",
+    "revision": "e74ffe8bffb4eceabc00",
     "url": "/abidishajia/static/css/main.3428d857.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/abidishajia/static/css/1.76f6a3e3.chunk.css"
   },
   {
-    "revision": "93e87a91b83f340be4e09e14dc58d6e1",
+    "revision": "dd690102f58d5e9544ca365785fe3002",
     "url": "/abidishajia/index.html"
   }
 ];
