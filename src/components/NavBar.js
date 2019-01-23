@@ -7,7 +7,7 @@ class NavBar extends Component {
     render() { 
         return ( 
             <nav className="navbar navbar-light navbar-expand-lg">
-            <Link to="/">
+            <Link to="/abidishajia">
                     <img src={logo} alt="store" className="navbar-brand" width="40" height="40"/>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
