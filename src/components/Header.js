@@ -15,7 +15,7 @@ class Header extends Component {
                     </div>
                     <div className="row">
                         <div className="profession-header col-sm-12 col-md-12  mx-auto">
-                            <h3> Front-End Web Developer</h3>
+                            <h3> Full Stack Web Developer</h3>
                         </div>
                     </div>
 

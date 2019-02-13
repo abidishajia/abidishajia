@@ -8,26 +8,34 @@ class Project extends Component {
         return ( 
             <ProjectWrapper className="col-sm-12 col-md-6 col-lg-4">
                 <div className="card">
-                    <div className="img-container p-5" onClick={() => console.log(`You clicked me ${id}`)}>
+                    <div className="img-container p-5">
                        <p>{description}</p>
-                       <span> <a href={link}>View Code </a> </span>
+                       <span> <a href={link} target="_blank" rel="noopener noreferrer">View Code </a> </span>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
                         <h6 className="project-title"> {title} </h6>
                         <span>
-                            {tags.includes('React') ? <i class="fab fa-react"/> : ""}
+                            {tags.includes('React') ? <i className="fab fa-react"/> : ""}
                         </span>
 
                         <span>
-                            {tags.includes('HTML') ? <i class="fab fa-html5"/> : ""}
+                            {tags.includes('HTML') ? <i className="fab fa-html5"/> : ""}
                         </span>
 
                         <span>
-                            {tags.includes('JS') ? <i class="fab fa-js"/> : ""}
+                            {tags.includes('JS') ? <i className="fab fa-js"/> : ""}
                         </span>
 
                         <span>
-                            {tags.includes('CSS') ? <i class="fab fa-css3" />: ""}
+                            {tags.includes('CSS') ? <i className="fab fa-css3" />: ""}
+                        </span>
+
+                        <span>
+                            {tags.includes('Python') ? <i className="fab fa-python"></i>: ""}
+                        </span>
+
+                        <span>
+                            {tags.includes('SQLAlchemy') ? <i className="fas fa-database"></i>: ""}
                         </span>
        
                     </div>

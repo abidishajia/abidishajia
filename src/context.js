@@ -1,8 +1,6 @@
 import React, { Component, createContext } from 'react';
 import {projects} from './data';
 
-
-
 const ProjectContext = createContext();
 const { Consumer,Provider} = ProjectContext;
 

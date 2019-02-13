@@ -24,6 +24,22 @@ export const projects = [{
 },
 {
     id: 4,
+    title: "Bulletin Board",
+    img: "",
+    description: "A bulletin board created with React",
+    link: "https://github.com/abidishajia/bulletinBoard",
+    tags: ["React", "JS", "JSX", "HTML", "CSS"]
+},
+{
+    id: 5,
+    title: "Chat Message Board",
+    img: "",
+    description: "A chat forum to communicate with people.",
+    link: "https://github.com/abidishajia/chatBoard",
+    tags: ["HTML", "CSS", "Python", "SQLAlchemy"]
+},
+{
+    id: 6,
     title: "Neighborhood Map",
     img: "",
     description: "It shows some of the famous tourist spots in San Francisco.",
@@ -31,7 +47,7 @@ export const projects = [{
     tags: ["JS", "HTML", "CSS", "API", "Knocjkout.js", "Foursquare"]
 },
 {
-    id: 5,
+    id: 7,
     title: "Tic Tac Toe",
     img: "",
     description: "Play the classic game of X's and O's vs. the computer.",
@@ -39,7 +55,7 @@ export const projects = [{
     tags: ["JS", "HTML", "CSS"]
 },
 {
-    id: 6,
+    id: 8,
     title: "Frogger",
     img: "",
     description: "This is a clone of a classic arcade game, Frogger.",
