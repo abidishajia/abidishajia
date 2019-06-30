@@ -8,7 +8,7 @@ class NavBar extends Component {
         return ( 
             <nav className="navbar navbar-light navbar-expand-lg">
             <Link to="/abidishajia">
-                    <img src={logo} alt="store" className="navbar-brand" width="40" height="40"/>
+                <img src={logo} alt="store" className="navbar-brand" width="40" height="40"/>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -21,6 +21,9 @@ class NavBar extends Component {
                     </li>
                     <li className="navbar-item">
                         <Link to="/about" className="nav-link">About Me</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link to="/blogs" className="nav-link">Blogs</Link>
                     </li>
                 </ul>
             </NavLinks>
