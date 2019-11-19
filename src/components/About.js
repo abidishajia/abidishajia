@@ -22,6 +22,7 @@ class About extends Component {
                             <li>JavaScript</li>
                             <li>HTML5 & CSS3</li>
                             <li>React & Redux</li>
+                            <li>Vue & Vuex</li>
                             <li>React-Native</li>
                             <li>Python</li>
                         </ul>
