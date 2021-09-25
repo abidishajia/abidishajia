@@ -16,7 +16,6 @@
 .card {
     transition: all 0.3s linear;
     margin-bottom: 50px;
-    background-color: #272D2D;
     height: 300px;
     display: flex;
     flex-direction: column;
