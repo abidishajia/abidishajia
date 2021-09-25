@@ -11,7 +11,7 @@ const App = () => {
     <div className="container-fluid">
       <NavBar />
       <Switch>
-        <Route exact path="/abidishajia" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/blogs" component={Blogs} />
       </Switch>
     </div>
