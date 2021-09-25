@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Charm|Damion");
-:root{
-  --mainBlue: #2A2A72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
-  --mainSeaGreen: #219f8f;
-  --mainYellow: #ece93b;
-  --mainPink:  #df38c3;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100;1,300;1,600&display=swap');
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
 }
-.main {
-  height: 90vh; 
-  display: flex; 
-  justify-content: center;
-  flex-direction: column;
+
+.navbar {
+  background-color: #fff;
+  font-family: 'Bitter', serif;
+  font-weight: 300;
 }
 
 @font-face {
@@ -20,51 +18,7 @@
   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
 }
 
-.title-name {
-  margin: 0;
-  font-size: 10vw;
-  /* position: relative; */
-  font-family: "Decovar Regular24";
-  font-variation-settings: 'INLN'1000, 'SWRM'580;
-  background-size: 30%;
-  background-repeat: repeat;
-  text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
-  animation: grow 5s ease infinite;
-  animation-direction: alternate;
-  letter-spacing: 0.4rem;
-  font-weight: 500;
-}
+.nav-link {
+  color: #000 !important;
 
-@keyframes grow {
-  0% {
-    font-variation-settings: 'INLN'1000, 'SWRM'180;
-    color: #ece93b;
-    font-weight: 700;
-  }
-
-  50% {
-    font-variation-settings: 'INLN'1000, 'SWRM'280;
-    color: #bbb930;
-    font-weight: 600;
-  }
-
-  100% {
-    font-variation-settings: 'INLN'1000, 'SWRM'580;
-    color: #6d6c1d;
-    font-weight: 500;
-  }
-
-}
-
-.profession-header h3 {
-  font-family: "Decovar Regular24";
-  font-size: 3vw;
-  color: #df38c3;
-  font-weight: 700;
-}
-
-.tagline{
-  /* font-family: "Decovar Regular24"; */
-  color: #df38c3;
-  font-weight: 300;
 }

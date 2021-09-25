@@ -1,27 +1,21 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
+import React from 'react';
+import Home from './components/Home';
 import Blogs from './components/Blogs';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 import NavBar from './components/NavBar';
-import {Switch, Route} from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container">
-          <NavBar/>
-          <Switch>
-            <Route exact path="/abidishajia" component={Header} /> 
-            <Route exact path="/about" component={About} /> 
-            <Route exact path="/projects" component={Projects} /> 
-            <Route exact path="/blogs" component={Blogs} /> 
-          </Switch>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className="container-fluid">
+      <NavBar />
+      <Switch>
+        <Route exact path="/abidishajia" component={Home} />
+        <Route exact path="/blogs" component={Blogs} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;

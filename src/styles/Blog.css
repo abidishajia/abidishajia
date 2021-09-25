@@ -1,0 +1,22 @@
+.blogsWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blogsWrapper .row {
+    margin-top: 70px;
+    padding: 0 !important;
+}
+
+.blogsWrapper h3 {
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.blogsWrapper li {
+    list-style: none;
+}

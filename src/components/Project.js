@@ -1,91 +1,36 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
+import React from 'react';
+import '../styles/Project.css';
 
-class Project extends Component {
 
-    render() { 
-        const {id, title, description, link, tags} = this.props.project;
-        return ( 
-            <ProjectWrapper className="col-sm-12 col-md-6 col-lg-4">
-                <div className="card">
-                    <div className="img-container p-5">
-                       <p>{description}</p>
-                       <span> <a href={link} target="_blank" rel="noopener noreferrer">View Code </a> </span>
-                    </div>
-                    <div className="card-footer d-flex justify-content-between">
-                        <h6 className="project-title"> {title} </h6>
-                        <span>
-                            {tags.includes('React') ? <i className="fab fa-react"/> : ""}
-                        </span>
-
-                        <span>
-                            {tags.includes('HTML') ? <i className="fab fa-html5"/> : ""}
-                        </span>
-
-                        <span>
-                            {tags.includes('JS') ? <i className="fab fa-js"/> : ""}
-                        </span>
-
-                        <span>
-                            {tags.includes('CSS') ? <i className="fab fa-css3" />: ""}
-                        </span>
-
-                        <span>
-                            {tags.includes('Python') ? <i className="fab fa-python"></i>: ""}
-                        </span>
-
-                        <span>
-                            {tags.includes('SQLAlchemy') ? <i className="fas fa-database"></i>: ""}
-                        </span>
-       
-                    </div>
+const Project = (props) => {
+    const { title, description, link, tags, type } = props.project;
+    return (
+        <div className="col-sm-12 col-md-4 col-lg-4">
+            <div className="card">
+                <div className="card-header">
+                    {title}
                 </div>
-            </ProjectWrapper>
-         );
-    }
+                <div className="card-body">
+                    <p className="card-text">{description}</p>
+                </div>
+                <div className="card-footer">
+                    <p>
+                        {tags.includes('React') ? <i className="fab fa-react" /> : ""}
+
+                        {tags.includes('JS') ? <i className="fab fa-js" /> : ""}
+
+                        {tags.includes('Python') ? <i className="fab fa-python"></i> : ""}
+
+                        {tags.includes('SQLAlchemy') ? <i className="fas fa-database"></i> : ""}
+                    </p>
+                    <a href={link} className="btn btn-primary-outline">
+                        {type === 'live' ? 'View' : 'View Code'}
+                    </a>
+                </div>
+            </div>
+        </div>
+    )
 }
- 
+
+
 export default Project;
-
-
-const ProjectWrapper = styled.div`
-.card{
-    border-color: var(--mainSeaGreen);
-    transition: all 0.3s linear;
-    margin-bottom: 50px;
-}
-
-.card-footer{
-    background: var(--mainSeaGreen);
-    border-top: transparent;
-    transition: all 0.3s linear;
-}
-
-&:hover{
-    .card{
-        border: 0.04rem solid rgba(0,0,0,0.4);
-        box-shadow: 2px 2px 2px 5px 0 rgba(0,0,0,0.2);
-        transform: scale(1.05); 
-
-    }
-    .card-footer{
-        background: rgb(23, 112, 100);
-    }
-}
-.project-title{
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
-    color: #eecc3a;
-    text-transform: uppercase;
-}
-
-i{
-    color: var(--mainDark);
-    font-size: 1.2rem;
-}
-
-p, span a{
-    font-family: 'Caveat';
-    font-size: 1.4rem;
-}
-`

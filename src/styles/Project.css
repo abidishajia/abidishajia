@@ -1,0 +1,81 @@
+.projectsWrapper .row {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2em;
+}
+
+.projectsWrapper h4 {
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.card {
+    transition: all 0.3s linear;
+    margin-bottom: 50px;
+    background-color: #272D2D;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.card-footer {
+    border-top: transparent;
+    transition: all 0.3s linear;
+    margin-top: auto;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    font-weight: 200;
+}
+
+.card:hover {
+    border: 0.04rem solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.card:hover .project-title {
+    color: #eecc3a;
+}
+
+.project-title {
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    display: block;
+}
+
+.card-footer i {
+    color: black !important;
+    font-size: 1.2rem !important;
+    padding-left: 20px;
+}
+
+.card-footer p {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.card-footer a {
+    float: right;
+    font-weight: 900;
+}
