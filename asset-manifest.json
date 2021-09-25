@@ -1,7 +1,7 @@
 {
   "main.css": "/abidishajia/static/css/main.cc4771bc.chunk.css",
-  "main.js": "/abidishajia/static/js/main.5a0d3d6a.chunk.js",
-  "main.js.map": "/abidishajia/static/js/main.5a0d3d6a.chunk.js.map",
+  "main.js": "/abidishajia/static/js/main.b7832cd1.chunk.js",
+  "main.js.map": "/abidishajia/static/js/main.b7832cd1.chunk.js.map",
   "static/css/1.6425679e.chunk.css": "/abidishajia/static/css/1.6425679e.chunk.css",
   "static/js/1.37be6123.chunk.js": "/abidishajia/static/js/1.37be6123.chunk.js",
   "static/js/1.37be6123.chunk.js.map": "/abidishajia/static/js/1.37be6123.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.cc4771bc.chunk.css.map": "/abidishajia/static/css/main.cc4771bc.chunk.css.map",
   "static/css/1.6425679e.chunk.css.map": "/abidishajia/static/css/1.6425679e.chunk.css.map",
   "index.html": "/abidishajia/index.html",
-  "precache-manifest.16cf43625ba51045c8ef7aa83e76aca1.js": "/abidishajia/precache-manifest.16cf43625ba51045c8ef7aa83e76aca1.js",
+  "precache-manifest.3daf5b07fcd4514a291a2c8fca145e59.js": "/abidishajia/precache-manifest.3daf5b07fcd4514a291a2c8fca145e59.js",
   "service-worker.js": "/abidishajia/service-worker.js"
 }
