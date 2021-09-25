@@ -12,7 +12,7 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route exact path="/blogs" component={Blogs} />
-        <Route path="/" component={Home} />
+        <Route exact path="/abidishajia" component={Home} />
       </Switch>
     </div>
   );

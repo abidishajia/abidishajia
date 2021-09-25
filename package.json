@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abidishajia.github.io/",
+  "homepage": "https://abidishajia.github.io/abidishajia",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "react": "^17.0.2",
