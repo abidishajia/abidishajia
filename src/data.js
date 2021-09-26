@@ -41,7 +41,7 @@ export const projects = [
     {
         title: "My Reads",
         img: "",
-        description: "A bookshelf app that lets users categorize thier reading list.",
+        description: "A bookshelf app that lets users categorize their reading list.",
         link: "https://github.com/abidishajia/myReads",
         tags: ["React", "JS", "JSX", "HTML", "CSS"],
         type: 'code'
