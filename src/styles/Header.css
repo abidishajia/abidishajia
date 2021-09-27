@@ -58,9 +58,6 @@ hr {
 }
 
 @media (max-width: 600px) {
-    .main {
-        padding-left: 20px;
-    }
 
     i {
         font-size: 32px;
